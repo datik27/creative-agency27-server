@@ -17,7 +17,7 @@ const { ObjectID } = require('mongodb')
 const serviceAccount = require(`${__dirname}/private.json`);
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://creative-agency-fullstack.firebaseio.com"
+  databaseURL: "https://creative-agency27.firebaseio.com"
 });
 
 
